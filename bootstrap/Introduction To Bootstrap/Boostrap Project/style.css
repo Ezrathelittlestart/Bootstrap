@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Moon+Dance&family=Playfair:ital,wght@0,300;1,300;1,500&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Playfair', serif;
+}
+
+.navbar .navbar-brand{
+    font-size: 1.5rem;
+    color: red;
+    font-weight: 950;
+}
+
+.navbar .navbar-brand span{
+    color: gold;
+    
+}
+
+.navbar .nav-link{
+    color: rgb(10, 10, 95);
+}
+
+.navbar .nav-link:hover{
+    color: red;
+    transition: 0.3s;
+}
+
+.navbar .nav-item{
+    color: rgb(7,7,78);
+    font-weight: 500;
+    padding-left: 50px;
+}
+
+.btn0{
+    height: 50px;
+    width: 130px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(243, 83, 82);
+    color: white;
+}
+
+.btn1{
+    height: 50px;
+    width: 130px;
+    border: none;
+    border-radius: 10px;
+    background-color: transparent;
+    color: rgb(243, 83, 42);
+    border: 2px solid rgb(243, 83, 42);
+    
+}
+
+.btn1:hover{
+    background-color: rgb(214, 11, 11);
+    transition: 0.4s;
+    color: white;
+    border: none;
+    
+}
+
+.main{
+    background-image: url(/jobf.webp);
+    background-size: cover;
+    min-height: 89vh;
+    width: 100%;
+}
+
+.main h1{
+    font-size: 3rem;
+    font-weight: 700;
+    color: red;
+    margin-left: -4rem;
+}
+
+.main input{
+    height: 70px;
+    width: 400px;
+    border-radius: none;
+    border: none;
+    outline: none;
+    padding: 15px;
+    margin-left: -4rem;
+}
+
+.btn2{
+    height: 70px;
+    width: 13%;
+    border: none;
+    outline: none;
+    background-color: rgb(243, 73, 73);
+    color: white;
+    margin-left: -5rem;
+}
+
+.btn2:hover{
+    background: rgb(214, 11, 11);
+    transition: 0.4s;
+}
+
+
+.service .card{
+    background-color: rgb(81,76,76);
+    color: white;
+    
+}
+
+.service .card:hover{
+    background: white;
+    transition: 1s;
+    color: black;
+}
+
+.service .social-icons{
+    font-size: 30px;
+    color:black;
+}
+
+.service h4{
+    color: brown;
+    font-weight: 900;
+}
+
+#blog{
+    padding-top: 100px;
+}
+
+.btn3{
+    height: 50px;
+    width: 250;
+    outline: none;
+    border-radius: 10px;
+    background-color: rgb(215,55,55);
+    color: black;
+    border: 2px solid rgb(248, 20, 20);
+}
+
+.apply{
+    background-image: url(/job3.jpg);
+    background-size: cover;
+    height: 110vh;
+    width: 100%;
+}
+
+.apply p{
+    text-align: center;
+    font-weight: bolder;
+    color:brown;
+}
+
+
+
+
+
+
